@@ -1,0 +1,11 @@
+fastapi 
+uvicorn[standard] 
+sqlalchemy 
+beautifulsoup4 
+requests 
+pydantic 
+langchain-core 
+langchain-community 
+python-dotenv 
+langchain-google-genai
+pymysql
