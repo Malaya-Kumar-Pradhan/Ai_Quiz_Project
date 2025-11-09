@@ -1,0 +1,122 @@
+{
+  "id": 1,
+  "title": "React Fundamentals Quiz",
+  "summary": "This quiz tests your understanding of React, a popular JavaScript library for building user interfaces. It covers its origin, core features like the virtual DOM and JSX, and its declarative programming approach.",
+  "key_entities": [
+    "React",
+    "JavaScript library",
+    "Virtual DOM",
+    "JSX",
+    "Jordan Walke"
+  ],
+  "organizations": [
+    "Facebook",
+    "Meta"
+  ],
+  "locations": [],
+  "sections": [
+    "React Definition and Purpose",
+    "Origin and History",
+    "Core Features and Concepts"
+  ],
+  "suggested_topics": [
+    "Front-end development",
+    "JavaScript",
+    "Component-based architecture",
+    "Web frameworks",
+    "Virtual DOM"
+  ],
+  "quiz": [
+    {
+      "question_id": "q1",
+      "text": "What type of software is React primarily classified as?",
+      "options": [
+        "A back-end framework",
+        "A database management system",
+        "A front-end JavaScript library",
+        "An operating system"
+      ],
+      "answer": "A front-end JavaScript library",
+      "explanation": "The article states, 'React is a free and open-source front-end JavaScript library for building user interfaces.'",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": "q2",
+      "text": "Who is credited with creating React?",
+      "options": [
+        "Mark Zuckerberg",
+        "Bill Gates",
+        "Jordan Walke",
+        "Steve Jobs"
+      ],
+      "answer": "Jordan Walke",
+      "explanation": "The text explicitly mentions, 'It was created by Jordan Walke at Facebook (now Meta).'",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": "q3",
+      "text": "Which company originally developed and released React?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Facebook",
+        "Amazon"
+      ],
+      "answer": "Facebook",
+      "explanation": "The article states React 'was created by Jordan Walke at Facebook (now Meta).'",     
+      "difficulty": "easy"
+    },
+    {
+      "question_id": "q4",
+      "text": "React uses a virtual DOM primarily for what purpose?",
+      "options": [
+        "To manage server-side logic",
+        "To store application data",
+        "To optimize rendering performance",
+        "To enable direct manipulation of the browser DOM"
+      ],
+      "answer": "To optimize rendering performance",
+      "explanation": "The text states, 'It is known for its use of a virtual DOM to optimize rendering performance.'",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": "q5",
+      "text": "What is JSX in React primarily used for?",
+      "options": [
+        "Defining server routes",
+        "Writing database queries",
+        "Allowing developers to write HTML-like structures directly within JavaScript",
+        "Managing application state"
+      ],
+      "answer": "Allowing developers to write HTML-like structures directly within JavaScript",
+      "explanation": "The article mentions 'its JSX syntax extension, which allows developers to write HTML-like structures directly within JavaScript.'",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": "q6",
+      "text": "In what year was React first released?",
+      "options": [
+        "2008",
+        "2013",
+        "2018",
+        "2005"
+      ],
+      "answer": "2013",
+      "explanation": "The text states React 'was first released in 2013.'",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": "q7",
+      "text": "What approach does React use that makes code more predictable?",
+      "options": [
+        "Imperative",
+        "Object-oriented",
+        "Declarative",
+        "Procedural"
+      ],
+      "answer": "Declarative",
+      "explanation": "The article states, 'React uses a declarative approach, which makes code more predictable.'",
+      "difficulty": "hard"
+    }
+  ]
+}
