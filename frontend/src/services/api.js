@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance configured to talk to your backend
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000', // Your FastAPI server address
+  baseURL: 'https://ai-quiz-project-ix11.onrender.com', // Your FastAPI server address
 });
 
 /**
