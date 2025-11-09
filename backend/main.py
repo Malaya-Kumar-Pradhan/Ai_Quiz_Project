@@ -62,12 +62,12 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",      # Default React app
     "http://localhost:5173",      # Default Vite app
-    "https://ai-quiz-project.vercel.app/"
+    "https://ai-quiz-project-69poos16d-malaya-kumar-pradhans-projects.vercel.app"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
