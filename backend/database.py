@@ -10,7 +10,7 @@ from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 # --- 1. Define Database Connection ---
-DATABASE_URL = "postgresql://quiz_history_user:YbSXAJ2ByBwQvDoOT3FCAdR0LS0Gpo0b@dpg-d482a124d50c738gg57g-a/quiz_history"
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Create the SQLAlchemy engine
 engine = create_engine(DATABASE_URL)
