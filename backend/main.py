@@ -62,8 +62,7 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",      # Default React app
     "http://localhost:5173",      # Default Vite app
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:5173",
+    "https://ai-quiz-project.vercel.app/"
 ]
 
 app.add_middleware(
