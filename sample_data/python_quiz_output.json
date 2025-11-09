@@ -1,0 +1,106 @@
+{
+  "id": 1,
+  "title": "Introduction to Python Programming Language",
+  "summary": "This quiz covers fundamental aspects of the Python programming language, including its creator, release year, core design principles, typing system, memory management, and supported programming paradigms, all based on the provided article text.",
+  "key_entities": [
+    "Python",
+    "Guido van Rossum",
+    "significant indentation",
+    "dynamically typed",
+    "garbage-collected"
+  ],
+  "organizations": [],
+  "locations": [],
+  "sections": [
+    "Language Overview",
+    "Creator and Release",
+    "Key Characteristics and Paradigms"
+  ],
+  "suggested_topics": [
+    "Programming Language",
+    "Object-oriented programming",
+    "Functional programming",
+    "Dynamic typing",
+    "Garbage collection"
+  ],
+  "quiz": [
+    {
+      "question_id": "q1",
+      "text": "Who is credited with creating the Python programming language?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Guido van Rossum",
+        "Mark Zuckerberg"
+      ],
+      "answer": "Guido van Rossum",
+      "explanation": "The article explicitly states that Python was created by Guido van Rossum.",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": "q2",
+      "text": "In what year was Python first released?",
+      "options": [
+        "1989",
+        "1991",
+        "1995",
+        "2000"
+      ],
+      "answer": "1991",
+      "explanation": "The article mentions that Python was first released in 1991.",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": "q3",
+      "text": "What key aspect of Python's design philosophy is emphasized in the article?",
+      "options": [
+        "High performance",
+        "Minimalist syntax",
+        "Code readability",
+        "Strict type checking"
+      ],
+      "answer": "Code readability",
+      "explanation": "The article states that Python's design philosophy 'emphasizes code readability with the use of significant indentation.'",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": "q4",
+      "text": "Which pair of characteristics accurately describes Python's typing and memory management according to the text?",
+      "options": [
+        "Statically typed and manually managed",
+        "Dynamically typed and garbage-collected",
+        "Statically typed and garbage-collected",
+        "Dynamically typed and manually managed"
+      ],
+      "answer": "Dynamically typed and garbage-collected",
+      "explanation": "The article explicitly states, 'Python is dynamically typed and garbage-collected.'",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": "q5",
+      "text": "Which of the following programming paradigms is NOT explicitly mentioned as being supported by Python in the provided text?",
+      "options": [
+        "Structured programming",
+        "Object-oriented programming",
+        "Functional programming",
+        "Logic programming"
+      ],
+      "answer": "Logic programming",
+      "explanation": "The article lists structured, object-oriented, and functional programming as supported paradigms, but does not mention logic programming.",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": "q6",
+      "text": "Python is described as what kind of programming language?",
+      "options": [
+        "Low-level, domain-specific",
+        "High-level, general-purpose",
+        "Assembly, system-specific",
+        "Markup, web-focused"
+      ],
+      "answer": "High-level, general-purpose",
+      "explanation": "The article begins by stating, 'Python is a high-level, general-purpose programming language.'",
+      "difficulty": "easy"
+    }
+  ]
+}
